@@ -1,0 +1,72 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+  color: black;
+  opacity: .7;
+  font-size: 36px;
+}
+.letters{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.letter{
+  width: 38px;
+  height: 38px;
+  background-color: #3398DC;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+  }
+}
+p{
+  color: black;
+  opacity: .6;
+  font-size: 18px;
+}
+.row{
+  margin: 0;
+  padding: 1px;
+  height: 32px;
+  display: flex;
+}
+input, a{
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.5);
+}
+.row input[type="text"]{
+  flex-grow: 2;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.row input[type="submit"], a{
+  background-color: white;
+  color: rgba(0,0,0,.5);
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 10px;
+
+  &:hover{
+    color: white;
+    background-color: #3398DC;
+    border: none;
+  }
+}
+a{
+  text-decoration: none;
+  border: none;
+  &:hover{
+    color: #3398DC;
+    background-color: white;
+  }
+}
+
+
